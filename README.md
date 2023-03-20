@@ -59,10 +59,10 @@ if __name__ == "__main__":  #Funcion principal
     H= int(input("ingrese la cantidad de huevos:"))
     B=float (input("cantidad de dinero con el que va a pagar:"))
     total_vueltas= calcular_las_vueltas (P, M, H, B)
-if calcular_las_vueltas < 0 :
-    print ("Te falto"+ str(total_vueltas))
+if total_vueltas > 0 :
+   print ("El total a devolver es:"+ str(total_vueltas))
 else:
-    print ("El total a devolver es:"+ str(total_vueltas))
+   print("Te falto:"+ str(total_vueltas))
    
 ```
 

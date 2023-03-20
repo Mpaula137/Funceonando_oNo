@@ -12,5 +12,4 @@ if total_vueltas > 0 :
     print ("El total a devolver es:"+ str(total_vueltas))
 
 else:
-   
-
+      print ("Te falto"+ str(total_vueltas))

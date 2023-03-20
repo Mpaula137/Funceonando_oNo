@@ -48,5 +48,23 @@ print ("El total de carne de aves es:"+ str(total)+"Kg")
 ## Punto 4:
 Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 
+```
+def calcular_las_vueltas (P:int, M:int, H:int, B:float) :# ((cant) P: panes, M:bolsas de leche, H: huevos, B: cantidad de dinero )
+    Preciototal = ((P*300)+(M*3300)+(H*350)) # (precio de pan, bolsa de leche y huevos)
+    vueltas= B - Preciototal
+    return vueltas
+if __name__ == "__main__":  #Funcion principal
+    P= int(input("ingrese la cantidad de panes:"))
+    M= int(input("ingrese la cantidad de bolsa (s) de leche:"))
+    H= int(input("ingrese la cantidad de huevos:"))
+    B=float (input("cantidad de dinero con el que va a pagar:"))
+    total_vueltas= calcular_las_vueltas (P, M, H, B)
+if calcular_las_vueltas < 0 :
+    print ("Te falto"+ str(total_vueltas))
+else:
+    print ("El total a devolver es:"+ str(total_vueltas))
+   
+```
+
 
 

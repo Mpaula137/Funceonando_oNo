@@ -9,7 +9,8 @@ if __name__ == "__main__":  #Funcion principal
     B=float (input("cantidad de dinero con el que va a pagar:"))
     total_vueltas= calcular_las_vueltas (P, M, H, B)
 if total_vueltas > 0 :
-    print ("El total a devolver es:"+ str(total_vueltas))
-
+   print ("El total a devolver es:"+ str(total_vueltas))
 else:
-      print ("Te falto"+ str(total_vueltas))
+   print("Te falto:"+ str(total_vueltas))
+   
+

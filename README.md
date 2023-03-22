@@ -155,4 +155,41 @@ print("Esta es tu lista de foma descendiente:"+str(ord_Descen(lista)))
 print("Esta es tu potencia:"+str(potencia_numeroMax_menor(lista)))
 print("Esta es tu raiz cubica del numero menor:", Raiz_cubica(lista))
 ```
+ ## Punto 9:
+ Consultar qué es y cómo funciona pip en python
+  ## pip
+Es el sistema de gestión de paquetes de Python, que se utiliza para instalar y administrar paquetes de software escritos en Python. Un paquete es un conjunto de módulos que ofrecen una funcionalidad específica y que pueden ser reutilizados en diferentes proyectos.
 
+El funcionamiento de pip es sencillo: se conecta al repositorio de paquetes de Python (Python Package Index o PyPI) y descarga e instala los paquetes necesarios para nuestro proyecto. PyPI es una base de datos pública de paquetes de software de Python, que contiene más de 300,000 paquetes. La mayoría de los paquetes son de código abierto y gratuitos.
+
+También es posible crear un archivo de requisitos requirements.txt, que lista todos los paquetes necesarios para el proyecto, junto con sus versiones. Esto permite compartir fácilmente los paquetes necesarios para que otros usuarios puedan instalarlos rápidamente en su propio entorno de Python.
+
+pip también permite actualizar los paquetes instalados en un proyecto. Para hacer esto, se puede utilizar el siguiente comando:
+```
+pip install --upgrade nombre_del_paquete
+```
+## Punto 10:
+Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
+
+- NumPy: es una biblioteca para el lenguaje de programación Python, añade soporte para grandes matrices y matrices multidimensionales, junto con una amplia colección de funciones matemáticas de alto nivel para operar en estas matrices.
+
+- Pandas: es una biblioteca de análisis de datos para Python que proporciona estructuras de datos flexibles y de alto rendimiento para trabajar con datos tabulares y series de tiempo.
+
+- Matplotlib: es una biblioteca para la generación de gráficos a partir de datos contenidos en listas o arrays en Python. Proporciona una API para la generación de gráficos en 2D con Python y se puede utilizar para crear gráficos de barras, gráficos de líneas, histogramas, gráficos de dispersión, etc.
+
+- Scikit-learn: es una biblioteca de aprendizaje automático para Python que proporciona herramientas simples y eficientes para la minería y el análisis de datos. Proporciona una amplia gama de algoritmos de aprendizaje automático, como regresión lineal, SVM, árboles de decisión, etc.
+
+- TensorFlow: es una plataforma de software de código abierto para el aprendizaje automático desarrollada por Google Brain Team. Permite la construcción y entrenamiento de modelos de aprendizaje automático utilizando redes neuronales.
+
+- Keras: es una biblioteca de redes neuronales de alto nivel que se ejecuta sobre TensorFlow. Proporciona una API fácil de usar para la construcción de modelos de aprendizaje profundo y es compatible con los principales marcos de redes neuronales, como TensorFlow, CNTK y Theano.
+
+- Flask: es un microframework para Python utilizado para el desarrollo de aplicaciones web. Proporciona herramientas para la gestión de solicitudes HTTP, el renderizado de plantillas, la gestión de sesiones y la autenticación de usuarios, entre otras funcionalidades.
+
+- Django: es un framework de desarrollo web de alto nivel para Python que permite construir aplicaciones web complejas de manera rápida y eficiente. Proporciona herramientas para la gestión de bases de datos, el manejo de formularios, la autenticación de usuarios y la generación automática de la interfaz de usuario.
+
+Para usar pip, se debe abrir una terminal y escribir el siguiente comando:
+```
+pip install nombre_del_paquete
+```
+Este comando descargará e instalará el paquete especificado en el proyecto.
+ # Bueno!! aca termina este reto #06 nos encontraremos en el proximo, aunque ya son mas seguidos que antes xd

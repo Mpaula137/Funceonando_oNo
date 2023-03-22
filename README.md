@@ -191,6 +191,10 @@ print("Esta es tu lista de foma descendiente:"+str(ord_Descen(lista)))
 print("Esta es tu potencia:"+str(potencia_numeroMax_menor(lista)))
 print("Esta es tu raiz cubica del numero menor:", Raiz_cubica(lista))
 ```
+ ## Punto 8:
+ Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
+ Explicación: Hice lo referente a clase cree el archivo con las operaciones lo nombre y el otro lo importe.
+ 
  ## Punto 9:
  Consultar qué es y cómo funciona pip en python
   ## pip
